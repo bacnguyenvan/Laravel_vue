@@ -6,7 +6,7 @@
 </head>
 <body>
     <div id="app">
-       
+       <router-view></router-view>
     </div>
     <script type="text/javascript" src="admin/js/app.js"></script>
 </body>

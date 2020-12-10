@@ -1,11 +1,17 @@
 <template>
 	<div class="container">
-		<h2>This is component </h2>
+		<Nav></Nav>
 	</div>
 </template>
 
 <script type="text/javascript">
-	
+	import Nav from './components/nav.vue';
+	export default{
+		
+		components:{
+			Nav
+		}
+	}
 </script>
 
 <style type="text/css">
